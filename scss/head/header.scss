@@ -1,0 +1,102 @@
+.start {
+    background-image: url(/img/head/Head_skale.jpg);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 61.4vw;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+
+    @media screen and (min-width:320px) {
+        min-width: 320px;
+        max-width: 767px;
+        
+    }
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1024px;
+        max-width: 1800px;
+        
+        
+    }
+}
+
+.h1 {
+    display: flex;
+    width: 335px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.text-title {
+
+}
+
+.input {
+
+}
+
+.but {
+   
+    width: 150px;
+    height: 60px;
+    background-color: #5474FD;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-align: center;
+    .ico-search {
+        background-color: #5474FD;
+        width: 20px;
+        height: 20px;
+    }
+    &:hover {
+        background-color: red;
+    }
+}
+
+
+
+
+.scroll {
+
+}
+
+.title-nav {
+
+}
+
+.h2 {
+
+}
+
+.we-are {
+
+}
+
+.we-do {
+
+}
+
+.travel {
+
+}
+
+.contact {
+
+}

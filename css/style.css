@@ -1,8 +1,163 @@
-.dsffg {
-  color: red;
-  font-size: 25px;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-.asd {
-  font-size: 50px;
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.body {
+  max-width: 1850px;
+}
+
+.conteiner {
+  max-width: 1800px;
+  margin: 0px auto;
+  padding: 0px;
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    min-width: 768px;
+    max-width: 1023px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conteiner {
+    min-width: 1024px;
+    max-width: 1800px;
+  }
+}
+
+.start {
+  background-image: url(/img/head/Head_skale.jpg);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 61.4vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 320px) {
+  .start {
+    min-width: 320px;
+    max-width: 767px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .start {
+    min-width: 768px;
+    max-width: 1119px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .start {
+    min-width: 1024px;
+    max-width: 1800px;
+  }
+}
+
+.h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 335px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.but {
+  width: 150px;
+  height: 60px;
+  background-color: #5474FD;
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+.but .ico-search {
+  background-color: #5474FD;
+  width: 20px;
+  height: 20px;
+}
+.but:hover {
+  background-color: red;
 }

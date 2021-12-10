@@ -1,0 +1,22 @@
+.body {
+    max-width: 1850px;
+}
+
+.conteiner {
+    max-width: 1800px;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    width: 100%;
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1023px;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1024px;
+        max-width: 1800px;
+        
+    }
+}
