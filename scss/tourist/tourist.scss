@@ -1,0 +1,24 @@
+.tourist-say {
+    max-width: 1770px;
+    max-height: 731px;
+    background-image: url(/img/tourist/Rectangle41421.jpg);
+    width: 100vw;
+    height: 70vw;
+    margin-top: 680px;
+    margin-left: 13px;
+
+    .tourist-mini {
+        max-width: 445px;
+        max-height: 284px;
+    }
+
+    .tourist-text {
+        max-width: 668px;
+        max-height: 287px;
+        .h3-text {
+            max-width: 150px;
+            max-height: 26px;
+        }
+        
+    }
+}
