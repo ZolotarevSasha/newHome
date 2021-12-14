@@ -10,15 +10,57 @@
     .tourist-mini {
         max-width: 445px;
         max-height: 284px;
+        margin-left: 331px;
+        margin-top: 93px;
     }
 
     .tourist-text {
+        display: block;
         max-width: 668px;
         max-height: 287px;
+        color: white;
+        margin-left: 773px;
+        margin-top: -245px;
+        
+
         .h3-text {
             max-width: 150px;
             max-height: 26px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            margin: 62px 83px 25px 39px;
+            
+
         }
-        
+
+        .tourist-story {
+            max-width: 581px;
+            max-height: 165px;
+            font-family: 'Aleo', serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            margin: 83px 25px 39px 62px;
+
+        }
+
+    }
+
+    .tourist {
+        max-width: 390px;
+        max-height: 26px;
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-left: 690px;
+        padding-top: 128px;
     }
 }
